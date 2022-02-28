@@ -23,7 +23,7 @@ $ pip freeze > requirements.txt
 #### How to use heroku?
 
 **don't use .gitignore I guess**
-
+- $ git init -> add -> commit
 - $ touch Procfile
   - inside the new file write: web: gunicorn app:app
 - $ heroku login 

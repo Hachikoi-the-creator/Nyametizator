@@ -16,21 +16,24 @@ I remmeber it was something about a normal string trasnformed into something a d
 
 #### How to use Virtual enviroment?
 
-**Add changes to the virtual enviroment**
+- Create one:
+  - $ python venv <name_of_your_v-env>
+- install packages inside requirements.txt
+  - $ pip install -r requirements.txt
 
-$ pip freeze > requirements.txt
+- Add changes to the virtual enviroment
+  - $ pip freeze > requirements.txt
 
 #### How to use heroku?
 
-**don't use .gitignore I guess**
 - $ git init -> add -> commit
 - $ touch Procfile
   - inside the new file write: web: gunicorn app:app
 - $ heroku login 
 - $ heroku create
 
-**Push our code to heroku**
-- $ git push heroku main|master
+- Push our code to heroku
+  - $ git push heroku main|master
 
-**Change the name of the page! o:**
-- $ heroku rename
+- Change the name of the page! o:
+  - $ heroku rename

@@ -1,0 +1,83 @@
+/******** 
+Basic styles
+********/
+:root {
+  font-size: 120%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 20px;
+  color: rgba(255, 0, 0, 0.767);
+}
+
+body {
+  background-color: rgb(255, 202, 202);
+  /* font-family: "Smooch Sans", sans-serif; */
+  font-family: "Hubballi", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+  font-family: inherit;
+}
+
+/******** 
+form layout
+********/
+form {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-field {
+  border-radius: 13px;
+  width: 77%;
+  height: 10ch;
+  text-align: center;
+}
+.entry-field:focus {
+  outline: none;
+  border: solid 1px rgb(255, 123, 145);
+}
+.btn {
+  width: 50%;
+  margin: 12px 0 30px 0;
+  height: fit-content;
+  border: solid 1px rgb(255, 123, 145);
+  background-color: rgb(255, 90, 118);
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Hubballi", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: solid 1px rgb(194, 77, 96);
+  background-color: rgb(197, 34, 61);
+}
+
+.footer {
+  letter-spacing: 12px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+button.btn {
+  font-size: 1rem;
+}

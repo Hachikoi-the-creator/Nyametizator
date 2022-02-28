@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubballi&family=Smooch+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>IM-GONNA-CUM</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/style.css') }}"
+    />
+    <script
+      src="{{ url_for('static',filename='js/script.js') }}"
+      defer
+    ></script>
+  </head>
+  <body>
+    <h1 id="title">Nyametizator 6000</h1>
+
+    <form class="sub-text" , method="post">
+      <label id="original" for="original">Enter your normie text~</label>
+
+      <input
+        id="original"
+        class="entry-field"
+        type="text"
+        name="original"
+        placeholder="Enter your boring boring text"
+        value="{{original_text}}"
+      />
+
+      <button class="btn" type="submit">Transform!</button>
+
+      <label id="output" for="final">Weeb text</label>
+
+      <input
+        class="entry-field"
+        id="final"
+        type="text"
+        placeholder="Lil' cringy text 😎"
+        value="{{output_text}}"
+      />
+
+      <span class="btn" id="copy-button">Copy</span>
+    </form>
+    <!---->
+    <footer>
+      <p class="footer" id="footer">Made by 8koi</p>
+    </footer>
+  </body>
+</html>

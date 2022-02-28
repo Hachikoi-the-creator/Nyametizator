@@ -20,6 +20,8 @@ I remmeber it was something about a normal string trasnformed into something a d
   - $ python venv <name_of_your_v-env>
 - install packages inside requirements.txt
   - $ pip install -r requirements.txt
+- Activate it
+  - $ <name_of_the_venv>/Scripts/activate
 
 - Add changes to the virtual enviroment
   - $ pip freeze > requirements.txt

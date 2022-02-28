@@ -25,7 +25,7 @@ def word_changer(word):
 def index():
     if request.method == "POST":
         original_text = request.form["original"]
-        print(original_text)
+        print(original_text[:10])
         new_url = word_changer(original_text)
         return render_template(
             "index.html", original_text=original_text, output_text=new_url

@@ -1,8 +1,9 @@
 # Nyametizator 6000
 
-# 📺Live Demo
-## 🔗Link : [Small Heart💖](https://small-heart-demo.herokuapp.com/)
-
+# Live Demo
+## [Nya-Nya-6000](https://nya-nya9000.herokuapp.com/)
+# GitHub repo
+## [Code Source](https://github.com/Hachikoi-the-creator/Nyametizator)
 
 ## ???
 

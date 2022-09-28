@@ -38,5 +38,8 @@ I remmeber it was something about a normal string trasnformed into something a d
 - Push our code to heroku
   - $ git push heroku main|master
 
-- Change the name of the page! o:
+##### Change the name of the page! o:
   - $ heroku rename
+
+##### Open deployed app
+  - $ heroku open
